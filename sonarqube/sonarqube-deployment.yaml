@@ -45,3 +45,4 @@ spec:
         - name: sonarqube-storage
           persistentVolumeClaim:
             claimName: sonarqube-pvc
+
