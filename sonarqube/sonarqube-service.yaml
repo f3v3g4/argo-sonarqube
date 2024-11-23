@@ -11,3 +11,4 @@ spec:
       nodePort: 30000 # Cambia este puerto si es necesario
   selector:
     app: sonarqube
+
