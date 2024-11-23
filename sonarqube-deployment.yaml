@@ -25,6 +25,13 @@ spec:
           value: sonar
         - name: SONAR_JDBC_PASSWORD
           value: sonar
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
         volumeMounts:
         - name: sonarqube-storage
           mountPath: /opt/sonarqube/data
